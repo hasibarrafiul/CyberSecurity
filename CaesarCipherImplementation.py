@@ -58,7 +58,7 @@ for i in range(0, 26):
     print("For key {}, decrypted text: {}".format(i, plain_text))
 
 
-#breaking a substitution cipher
+#breaking a substitution cipher using letter frequency
 print(ciphertext)
 stored_letters = {}
 
