@@ -6,7 +6,7 @@ class IN:
 
 
 s = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
-hostName = "103.49.169.150"
+hostName = "Your ip"
 Port = 9999
 s.connect((hostName, Port))
 s.setsockopt(socket.IPPROTO_IP, IN.IP_MTU_DISCOVER, IN.IP_PMTUDISC_DO)
